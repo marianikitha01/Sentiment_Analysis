@@ -52,3 +52,11 @@ This project demonstrates an end-to-end solution for sentiment analysis of Amazo
    ```bash
    git clone <repository_url>
    cd <project_directory>
+   ```
+
+2. **Install Dependencies:**
+
+```bash
+
+pip install -r requirements.txt
+```
