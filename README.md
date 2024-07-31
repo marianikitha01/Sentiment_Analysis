@@ -55,8 +55,31 @@ This project demonstrates an end-to-end solution for sentiment analysis of Amazo
    ```
 
 2. **Install Dependencies:**
+Create a requirements.txt file with the following content:
+```bash
+Flask
+flask-cors
+pandas
+nltk
+scikit-learn
+xgboost
+streamlit
+```
+Then, install the dependencies using:
+```bash
+pip install -r requirements.txt
+```
+### Running the Application
+**Run the Flask API:**
+Start the Flask API server by running:
 
 ```bash
 
-pip install -r requirements.txt
+flask --app api.py run --port=5000
+```
+**Run the Streamlit Application:**
+Start the Streamlit web application by running:
+
+```bash
+streamlit run main.py
 ```
